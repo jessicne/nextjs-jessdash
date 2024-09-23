@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import Link from 'next/link';
 /*import { generatePagination } from '@/app/lib/utils';*/
 
-/*export default function Pagination({ totalPages }: { totalPages: number }) {*/
+export default function Pagination({ totalPages }: { totalPages: number }) {
   // NOTE: Uncomment this code in Chapter 11
 
   // const allPages = generatePagination(currentPage, totalPages);
@@ -47,10 +47,10 @@ import Link from 'next/link';
           href={createPageURL(currentPage + 1)}
           isDisabled={currentPage >= totalPages}
         />
-      </div> *//*}
+      </div> */}
     </>
   );
-}*/
+}
 
 /*function PaginationNumber({
   page,
