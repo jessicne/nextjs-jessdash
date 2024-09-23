@@ -6,7 +6,7 @@ import Search from '@/app/ui/search';
   FormattedCustomersTable,
 } from '@/app/lib/definitions';*/
 
-export default async function CustomersTable({
+/*export default async function CustomersTable({
   customers,
 }: {
   customers: FormattedCustomersTable[];
@@ -120,4 +120,4 @@ export default async function CustomersTable({
       </div>
     </div>
   );
-}
+}*/
